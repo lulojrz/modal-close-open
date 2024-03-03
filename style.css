@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.modal{
+    width: 30%;
+    margin: auto;
+    border: 1px solid;
+    min-width: 450px;
+    display: none;
+    margin-top: -300px;
+}
+
+.modal-header{
+    width: 100%;
+    background-color: rgb(5, 143, 5);
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem;
+
+}
+.title-modal{
+    color: white;
+    font-family: "Cantarell", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.title-icon button{
+    background-color:rgb(5, 143, 5) ;
+    border: none;
+}
+.title-icon button:hover{
+    cursor: pointer;
+}
+.body-icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+    
+}
+.body-icon img{
+    width: 30%;
+    margin: auto;
+    padding: 1rem;
+
+}
+.modal-alert{
+    text-align: center;
+    font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.modal-close{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    padding: 0.5rem;
+
+}
+.modal-close button{
+    padding: 0.5rem;
+    text-align: center;
+    font-family: "Cantarell", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: rgb(5, 143, 5) ;
+    color: white;
+    border: 1px solid;
+    border-radius: 10%;
+
+
+}
+.modal-close button:hover{
+    cursor: pointer;
+}
+.open-button{
+ 
+    margin: auto;
+    width: 10%;
+}
+.Open{
+    padding: 0.5rem;
+    text-align: center;
+    font-family: "Cantarell", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: rgb(5, 143, 5) ;
+    color: white;
+    border: 1px solid;
+    border-radius: 10%;
+    width: 100px;
+}
+@media(max-width: 500px){
+    .modal{
+        width: 300px;
+        min-width: none;
+    }
+}
