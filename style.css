@@ -13,10 +13,9 @@ body{
     justify-content: space-between;
 }
 .modal{
-    width: 30%;
+    width: 450px;
     margin: auto;
     border: 1px solid;
-    min-width: 450px;
     display: none;
     margin-top: -300px;
 }
@@ -89,7 +88,6 @@ body{
 .open-button{
  
     margin: auto;
-    width: 10%;
 }
 .Open{
     padding: 0.5rem;
@@ -103,9 +101,11 @@ body{
     border-radius: 10%;
     width: 100px;
 }
-@media(max-width: 500px){
+@media(max-width: 450px){
     .modal{
-        width: 300px;
-        min-width: none;
+        width: 90%;
+    }
+    .modal-alert h1{
+        font-size: 1.4rem;
     }
 }
